@@ -11,11 +11,9 @@ package gameoflife;
  */
 public class GameOfLife {
 
-    /**
-     * @param args the command line arguments
-     */
+    static MainForm mf = new MainForm();
     public static void main(String[] args) {
-        // TODO code application logic here
+        mf.setVisible(true);
     }
     
 }
